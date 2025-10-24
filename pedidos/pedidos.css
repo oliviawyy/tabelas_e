@@ -1,0 +1,63 @@
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+}
+
+th,td{
+    padding: 8px;
+    /* text-align: center; */
+}
+
+th{
+    background-color: aliceblue;
+    font-weight: 900;
+}
+
+.tabela-1 th, .tabela-1 td{
+    border: 2px solid #000000;
+
+}
+
+.tabela-1 img{
+    width: 70px;
+    /* poderia resolver o problema de alinhamento */
+    display: block;
+    margin: auto;
+}
+
+/* block para aceitar a margin, e o margin auto é para centralizar */
+
+.tabela-1 button{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.tabela-2 th, .tabela-2 td{
+    border: 1px solid #00c0da;
+}
+
+.status-entregue{
+    color: aliceblue;
+    background-color: #6dff0c;
+    padding: 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.status-processamento{
+    color: rgb(255, 200, 47);
+    padding: 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.status-aguardando{
+    color: rgb(255, 34, 34);
+    padding: 5px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}

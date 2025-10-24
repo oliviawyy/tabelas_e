@@ -1,0 +1,29 @@
+/* estilos por TAGs */
+
+
+/* A VÍRGULA SEPARA CADA UMA DAS TAGS, FORMATANDO-A DE FORMA INDPENDENTE */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 25px auto 0;
+}
+
+/* IRÁ SUBSTITUIR A FORMATACAO INTERIOR (CASCATA) */
+table{
+    width: 100%;
+}
+
+
+th{
+    background: #00e2e2;
+    color: rgb(240, 245, 255);
+}
+
+/* MIAS ESPECIFICO, SERÁ O TD DENTRO DO TR DO TFOOT */
+tfoot tr td{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: #00e2e2;
+}
