@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./tab-produtos-clientes-fidelidade.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+
+  <h1>Tabelas com CSS</h1>
+
+  <h2>01: Relatório de Produtos</h2>
+
+
+    <table>
+      <!-- Título para a tabela -->
+        <caption>Produtos encontrados</caption>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Preço (R$)</th>
+            <th>Categoria</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Camisa Flanela</td>
+            <td>59,90</td>
+            <td>Vestuário</td>
+          </tr>
+          <tr class="altura">
+            <td>Teclado Gamer</td>
+            <td>129,90</td>
+            <td>Eletrônicos</td>
+          </tr>
+          <tr>
+            <td>Fone de Ouvido</td>
+            <td>79,90</td>
+            <td>Acessórios</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan = "3">Dados extraídos em 23/10/2025</td>
+          </tr>
+        </tfoot>
+    </table>
+
+  <h2>02: Tabela de Clientes</h2> 
+  <table>
+    <caption>Cadastro de Clientes</caption>
+    <thead>
+    <tr>
+      <th colspan="4">CLIENTES</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Código</th>
+      <th rowspan="2">Nome</th>
+      <th colspan="2">Documentos</th>
+    </tr>
+    <tr>
+      <th>RG</th>
+      <th>CPF</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>João da Silva</td>
+        <td>00.000.000-00</td>
+        <td>000.000.000-00</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>João de Souza</td>
+        <td>00.000.000-00</td>
+        <td>000.000.000-00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>03: Tabela de Fidelidade</h2> 
+  <table>
+    <caption>Clientes</caption>
+  <thead>
+    <tr>
+      <th colspan="5">Sorvetes</th>
+    </tr>
+    <tr>
+      <th rowspan="2">Código</th>
+      <th rowspan="2">Sabor</th>
+      <th rowspan="2">Cliente</th>
+      <th colspan="2">Tipo</th>
+    </tr>
+    <tr>
+      <th>Picolé</th>
+      <th>Massa</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>Chocolate</td>
+        <td>Maria</td>
+        <td>SIM</td>
+        <td>NÃO</td>
+      </tr>
+    </tbody>
+  </table>
+  <section class="navegacao">
+    <nav>
+        <a href="/index.html"><button>Home</button></a>
+        <a href="/pedidos/pedidos.html"><button>Pedidos</button></a>
+    </nav>
+  </section>
+</body>
+</html>
+  
