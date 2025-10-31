@@ -41,22 +41,25 @@ th{
 }
 
 .status-entregue{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     background-color: #6dff0c;
     padding: 5px 15px;
     border-radius: 6px;
     cursor: pointer;
+    
 }
 
 .status-processamento{
-    color: rgb(255, 200, 47);
+    color: rgb(255, 255, 255);
+    background-color: #ffb20c;
     padding: 5px 15px;
     border-radius: 6px;
     cursor: pointer;
 }
 
 .status-aguardando{
-    color: rgb(255, 34, 34);
+    color: rgb(255, 255, 255);
+    background-color: red;
     padding: 5px 15px;
     border-radius: 6px;
     cursor: pointer;
